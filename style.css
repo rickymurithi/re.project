@@ -1,0 +1,97 @@
+* {
+    background-color: aliceblue;
+  }
+  span {
+    text-align: center;
+    padding: 30px;
+  }
+  a {
+    margin-left: 100px;
+  }
+  nav {
+    background-color: white;
+  }
+  
+  .content {
+    color: blue;
+    font-size: 30px;
+  }
+  .cb {
+    color: grey;
+    font-size: 20px;
+  }
+  
+  .Center {
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .center {
+    color: grey;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 20px;
+  }
+  .inquiry{display: flex;}
+  .image4{
+  
+  }
+  .image5{}
+  
+  .image1 {
+    width: 5px;
+  }
+  .image2 {
+    width: 5px;
+  }
+  .IMAGE {
+    w: 5px;
+  }
+
+  
+  .wing {
+    display: flex;
+  }
+
+  .image3{
+ float: left;
+ max-width: 100%; 
+ max-height: 100%;
+  }
+  .why {
+    color: blue;
+    font-size: 30px;
+    margin-left: 1000px;
+  }
+  .why2 {
+    color: grey;
+    font-size: 20px;
+    margin-left: 1000px;
+  }
+  
+  .catalogue{
+;
+  }
+
+  .view {
+    text-align: end;
+  }
+  .feedback {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+ 
+  .article{
+    font-size: 17px;
+  }
+  
+  .footer-sec {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  font-size: 18px;
+  }
+ 
+  
