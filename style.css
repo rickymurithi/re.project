@@ -1,6 +1,9 @@
 * {
     background-color: aliceblue;
   }
+  em{
+    font-size: 20px;
+  }
   span {
     text-align: center;
     padding: 30px;
@@ -76,11 +79,13 @@
 
   .view {
     text-align: end;
+    font-size: 18px;
   }
   .feedback {
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    font-size: 18px;
   }
  
   .article{
