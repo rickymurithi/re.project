@@ -24,24 +24,20 @@
     font-size: 20px;
   }
   
-  .Center {
-    color: blue;
-    font-size: 30px;
-    text-align: center;
-    margin-left: 20px;
+  
+  .inquiry{
+    display: flex;
+    max-width: 100%
   }
-  .center {
-    color: grey;
-    text-align: center;
-    margin-left: 50px;
-    font-size: 20px;
-  }
-  .inquiry{display: flex;}
   .image4{
   
   }
   .image5{}
   
+
+  .catalogue{
+    ;
+      }
   .image1 {
     width: 5px;
   }
@@ -72,31 +68,85 @@
     font-size: 20px;
     margin-left: 1000px;
   }
-  
-  .catalogue{
-;
+  .Center {
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .center {
+    color: grey;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 23px;
   }
 
-  .view {
+  .view{
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+    border: 20px;
+    padding: 20px;
     text-align: end;
     font-size: 18px;
   }
+  
   .feedback {
     display: flex;
     justify-content: center;
-    justify-content: space-around;
-    font-size: 18px;
+    justify-content:space-evenly;
+    margin: 20px;
+    padding: 20px;
   }
- 
-  .article{
-    font-size: 17px;
-  }
-  
   .footer-sec {
+  background-color: #0f298b;
   display: flex;
   justify-content: center;
   align-content: space-around;
   font-size: 18px;
   }
+.footer{
+  background-color: #0f298b;
+}
+  .footer article{
+    font-size: 18px;
+    background-color: #0f298b;
+   
+  }
+  .footer ul{
+    font-size: 18px;
+    background-color: #0f298b;
+   
+  }
+  .footer h3{
+    font-size: 18px;
+    background-color: #0f298b;
+   
+  }
+  .footer p{
+    font-size: 18px;
+    background-color: #0f298b;
+   
+  }
+
+.footer-1{
+  background-color: #0f298b;
+  font-size: 20px;
  
+} 
+.footer-1 ul{
+  background-color: #0f298b;
+  font-size: 20px;
+ 
+}
+.footer-1 p{
+  background-color: #0f298b;
+  font-size: 20px;
+  ;
+}
+.footer-1 h3{
+  background-color: #0f298b;
+  font-size: 20px;
+ 
+}
   
