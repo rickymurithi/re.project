@@ -77,26 +77,62 @@
 ;
   }
 
-  .view {
+  .view{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
     text-align: end;
     font-size: 18px;
   }
+  
   .feedback {
     display: flex;
     justify-content: center;
     justify-content: space-around;
     font-size: 18px;
   }
- 
-  .article{
-    font-size: 17px;
-  }
-  
   .footer-sec {
+  background-color: #0f298b;
   display: flex;
   justify-content: center;
   align-content: space-around;
   font-size: 18px;
   }
- 
+
+  .footer article{
+    font-size: 17px;
+    background-color: #0f298b;
+    
+  }
+  .footer ul{
+    font-size: 17px;
+    background-color: #0f298b;
+   
+  }
+  .footer h3{
+    font-size: 17px;
+    background-color: #0f298b;
+  }
+  .footer p{
+    font-size: 17px;
+    background-color: #0f298b;
+    
+  }
+
+.footer-1{
+  background-color: #0f298b;
+  font-size: 18px;
+} 
+.footer-1 ul{
+  background-color: #0f298b;
+  font-size: 18px;
+}
+.footer-1 p{
+  background-color: #0f298b;
+  font-size: 18px;
+}
+.footer-1 h3{
+  background-color: #0f298b;
+  font-size: 18px;
+}
   
