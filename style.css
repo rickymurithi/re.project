@@ -23,41 +23,38 @@
     color: grey;
     font-size: 20px;
   }
-  
-  
+
   .inquiry{
     display: flex;
-    max-width: 100%
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 100%;
   }
-  .image4{
-  
+  .inquiry imageA{
+    max-width: 100%;
   }
-  .image5{}
-  
-
-  .catalogue{
-    ;
-      }
-  .image1 {
-    width: 5px;
+  .inquiry imageP{
+    max-width: 100%;
+    height: 1px;
   }
-  .image2 {
-    width: 5px;
-  }
-  .IMAGE {
-    w: 5px;
+  .inquiry imageC{
+   max-width: 100%;
+   height: 1px;
   }
 
-  
-  .wing {
-    display: flex;
+  .wing{
+    justify-content: space-evenly;
   }
-
-  .image3{
- float: left;
- max-width: 100%; 
- max-height: 100%;
+  .wing image2{
+   max-width: 100%;
+   justify-content: left;
   }
+  .wing content{
+justify-content: right;
+  }
+.wing .why2{
+  justify-content: right;
+}
   .why {
     color: blue;
     font-size: 30px;
@@ -67,6 +64,12 @@
     color: grey;
     font-size: 20px;
     margin-left: 1000px;
+  }
+  .wing li{
+    color: light black;
+  }
+  .wing listed{
+  flex-direction: row;
   }
   .Center {
     color: blue;
@@ -80,12 +83,29 @@
     margin-left: 50px;
     font-size: 23px;
   }
+  
+  .catalogue{
+max-width: 100%;
+flex-direction: row;
+display: flex;
+justify-content: space-evenly;
+  }
+    
+  .catalogue image4{
+max-width: 100%;
+  }
+  .catalogue image{
+max-width: 100%;
+
+  }
+  .catalogue image51{
+max-width: 100%;
+  }
 
   .view{
     display: flex;
     justify-content: end;
-    margin: 20px;
-    border: 20px;
+    margin: 10px;
     padding: 20px;
     text-align: end;
     font-size: 18px;
@@ -94,7 +114,8 @@
   .feedback {
     display: flex;
     justify-content: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
+    font-size: 18px;
     margin: 20px;
     padding: 20px;
   }
@@ -105,13 +126,11 @@
   align-content: space-around;
   font-size: 18px;
   }
-.footer{
-  background-color: #0f298b;
-}
+
   .footer article{
-    font-size: 18px;
+    font-size: 17px;
     background-color: #0f298b;
-   
+    
   }
   .footer ul{
     font-size: 18px;
@@ -121,32 +140,28 @@
   .footer h3{
     font-size: 18px;
     background-color: #0f298b;
-   
   }
-  .footer p{
-    font-size: 18px;
-    background-color: #0f298b;
-   
+.footer p{
+  font-size: 18px;
+  background-color: #0f298b;
   }
-
+.footer{
+background-color: #0f298b;
+}
 .footer-1{
   background-color: #0f298b;
   font-size: 20px;
- 
 } 
 .footer-1 ul{
   background-color: #0f298b;
   font-size: 20px;
- 
 }
 .footer-1 p{
   background-color: #0f298b;
   font-size: 20px;
-  ;
 }
 .footer-1 h3{
   background-color: #0f298b;
   font-size: 20px;
- 
 }
   
