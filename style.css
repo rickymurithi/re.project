@@ -1,26 +1,41 @@
 * {
     background-color: aliceblue;
   }
-  em{
-    font-size: 20px;
-  }
-  span {
-    text-align: center;
-    padding: 30px;
-  }
-  a {
-    margin-left: 100px;
-  }
+.navbar{
+  display: flex;
+  padding: 15px 15px;
+}
+.navstart{
+  font-size: 28px;
+  padding-right: 400px;
+}
+.navcenter{
+  font-size: 23px;
+  text-align: center;
+}
+.navcenter a{
+  padding-right: 30px;
+}
+.navend{
+  font-size: 23px;
+  padding-left: 400px;
+}
+.navend button{
+  background-color: #0f298b;
+  font-size: 23px;
+  padding: 15px;
+  border-radius: 10%;
+}
   nav {
     background-color: white;
   }
   
-  .content {
+  .content p{
     color: blue;
     font-size: 30px;
   }
   .cb {
-    color: grey;
+    color: rgb(8, 8, 8);
     font-size: 20px;
   }
 
